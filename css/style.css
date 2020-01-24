@@ -1,0 +1,165 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a, a:hover, a:focus{
+    text-decoration: none;
+}
+.bitm-wrapper{
+    background: #00589C;
+}
+.bitm-content-wrapper{
+    border-radius: 10px;
+}
+.container{
+    margin-top: 7%;
+    box-shadow: 0 0 10px rgba(0,0,0,15%);
+}
+/* Left Side */
+.bitm-left-side{
+    padding: 40px;
+    background: #0c76c9;
+    background: -moz-linear-gradient(top,  #0c76c9 0%, #024477 100%);
+    background: -webkit-linear-gradient(top,  #0c76c9 0%,#024477 100%);
+    background: linear-gradient(to bottom,  #0c76c9 0%,#024477 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c76c9', endColorstr='#024477',GradientType=0 ); 
+    border-radius: 10px 0 0 10px;
+}
+.bitm-left-content h2 strong {
+    font-weight: 500;
+    display: block;
+}
+.bitm-left-content h2 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 37px;
+    line-height: 47px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner-image {
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto 40px;
+}
+.bitm-left-side h6 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+}
+.bitm-left-side h6 a {
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.logo {
+    height: auto;
+    max-width: 140px;
+}
+/* Left Side */
+
+/* Right Side */
+.bitm-right-side{
+    background: #ffffff;
+    border-radius: 0 10px 10px 0;
+    padding: 40px;
+}
+.bitm-signin h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.button-alternate-white{
+    background: #ffffff;
+    color: #00589c;
+    box-shadow: 0 0 6px rgba(0,0,0,15%);
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.bitm-right-side input[type="text"], .bitm-right-side input[type="password"]{
+    border: solid 1px #D5D5D5;
+    display: block;
+    height: 44px;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #333333;
+}
+.button-blue{
+    background: #00589c;
+    color: #ffffff;
+    box-shadow: 0 0 6px rgba(0,0,0,15%);
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.bitm-form .link-light {
+    display: block;
+    color: #888888;
+    font-size: 14px;
+}
+.bitm-right-side label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333333;
+}
+.alternate .alternate_text {
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 20px;
+    color: #a8a7a7;
+}
+.alternate:before {
+    content: "";
+    border-top: solid 1px #e6e6e6;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 13px;
+}
+.alternate {
+    width: 90%;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 5px auto 15px;
+}
+.bitm-footer p {
+    color: #888888;
+    font-size: 13px;
+    font-weight: 400;
+}
+.bitm-right-side .form-group {
+    position: relative;
+}
+.bitm-right-side .tooltip-info {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+.bitm-right-side .tooltip-info img {
+    width: 24px;
+    height: 24px;
+}
+/* Right Side */
+
+/* Media queries */
+@media screen and (max-width: 767px){
+
+}
